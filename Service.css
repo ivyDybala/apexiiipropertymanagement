@@ -1,0 +1,286 @@
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #dcdcdc;
+  }
+  
+  .wrp{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  body{
+    background-color: #f5f5f5;
+  }
+  
+  header{
+    width: 100%;
+    background-color: #222021;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  nav{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .logo{
+    width: 75px;
+  }
+  
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .links{
+    display: flex;
+    gap: 15px;
+  }
+  
+  .links a{
+    font-size: .85rem;
+  }
+  
+  .socials{
+    display: flex;
+    gap: 5px;
+  }
+  
+  .socials a img{
+    width: 35px;
+    transition: all .3s ease;
+  }
+  
+  .socials a:hover img{
+    transform: scale(1.1);
+  }
+  
+  .btn{
+    padding: 10px 20px;
+    background-color: #074963;
+    border-radius: 5px;
+    font-size: .9rem;
+    font-weight: 500;
+    transition: all .3s ease;
+    color: #f5f5f5;
+  }
+  
+  .btn:hover{
+    background-color: #f5f5f5;
+    color: #000000;
+  }
+  
+  .hero{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(180deg, #000000b7, #00000043), url(./img/herobg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .content{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .content h1{
+    font-size: 6rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  
+  .content p{
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  
+  .ctn{
+    width: 100%;
+    background-color:#074963;
+    padding: 80px 0;
+  }
+  
+  .slide1 {
+    display: flex;
+    align-items: center;
+    background-color: rgb(226, 226, 248);
+  } 
+
+
+  .agent-text h2{
+  text-align: left;
+  
+  
+  }
+  .agent-text1 {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: black;
+  }
+  
+  .agent-image {
+    margin-left: auto;
+    height: 400px;
+    
+  }
+  
+  .agent-image img {
+    max-width:700px; 
+    height: auto;
+    margin-right: 0%; 
+    margin-left: 60px;
+    margin-right: 40px;
+  }
+
+  .slide2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #074963;;
+  }
+  
+  .text {
+    text-align: right;
+    padding-right: 10px;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white;
+  }
+
+  .image {
+    flex-shrink: 0;
+    margin-right: 10px;
+    width: 800px;
+    height: 400px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .slide3 {
+    display: flex;
+    align-items: center;
+    background-color: rgb(226, 226, 248);
+  } 
+
+
+  .agent-text3 h2{
+  text-align: left;
+  
+  
+  }
+  .agent-text3 {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: black;
+  }
+  
+  .agent-image {
+    margin-left: auto;
+    height: fit-content;
+    
+  }
+  
+  .agent-image img {
+    width: 800px; 
+    height: 500px; 
+  }
+
+
+  
+  footer{
+    padding: 50px 0px 0px 0px;
+    background-color:#074963;
+    font-family: sans-serif;
+    gap: 2em;
+    color: white;
+    line-height: 2;
+    letter-spacing: .3px;
+    padding: 2em;      
+    }
+    
+    .main{
+    width: 100vw;
+    flex-direction: row;
+    display: flex;
+    gap: 2em;  
+
+    }
+    
+    .foot-text{
+    width: 90%;
+    padding-bottom: 50px;
+    }
+    
+    .foot-text .logo img{
+    width: 80%;
+    }
+    
+    .foot-text .logo h2{
+    font-size: 1.6rem;
+    font-weight: 500;
+    opacity: 95%;
+    }
+    
+    .contacts{
+    width: 50%;
+    padding-bottom: 50px;
+    }
+    
+    .footer-links{
+    width: 50%;
+    }
+
+    .footer-links ul {
+      list-style-type: none;
+    }
+
+      
+    
+    .copyright{
+    width: 100%;
+    flex-direction: column-reverse;
+    
+    }
+    
+    .copyright-t{
+    width: 90%;
+    }
+    
+    .icons{
+    width: 30%;
+    }
+    
+    
+    .icons i{
+    padding: 30px;
+    } 
+    
+    
+    
+    
+   
